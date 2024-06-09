@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quote Creator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=github.com"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="break header">
+      <h1>Get a random quote</h1>
+      <br>
+    </div>
+    <div class="quote-container" id="quote-container">
+      <div class="quote-text">
+        <i class="fa-solid fa-quote-left"></i>
+          <span id="quote"></span>
+      </div>
+      <div class="quote-author">
+        <span id="author"></span>
+      </div>
+      <div class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet the quote">
+          <i class="fa-brands fa-x-twitter"></i>
+        </button>
+        <button id="new-quote" title="Get new quote">
+          New Quote
+        </button>
+      </div>
+    </div>
+    <div class="loader" id="loader"></div>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
